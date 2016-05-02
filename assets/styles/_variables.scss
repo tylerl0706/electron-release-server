@@ -15,7 +15,7 @@ $gray:                   #464545 !default;
 $gray-light:             #999 !default;   // #999
 $gray-lighter:           #EBEBEB !default; // #eee
 
-$brand-primary:         #375a7f !default;
+$brand-primary:         #1C3144 !default;
 $brand-success:         #00bc8c !default;
 $brand-info:            #3498DB !default;
 $brand-warning:         #F39C12 !default;
@@ -27,9 +27,9 @@ $brand-danger:          #E74C3C !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               $gray-darker !default;
+$body-bg:               $gray-lighter !default;
 //** Global text color on `<body>`.
-$text-color:            #fff !default;
+$text-color:            $gray-base !default;
 
 //** Global textual link color.
 $link-color:            desaturate(lighten($brand-success, 10%),10%) !default;
@@ -487,7 +487,7 @@ $pager-disabled-color:                 #ddd !default;
 
 $jumbotron-padding:              30px !default;
 $jumbotron-color:                inherit !default;
-$jumbotron-bg:                   $gray-dark !default;
+$jumbotron-bg:                   $gray-lighter !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
