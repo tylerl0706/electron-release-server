@@ -231,3 +231,23 @@ input[type="number"].ng-invalid {
   border-color: red;
   color: red;
 }
+
+.secondary-background-color{
+    background-color: $brand-secondary;
+    border: none;
+}
+
+.secondary-background-color:hover{
+    background-color: #8d5add;
+    border: none;
+}
+
+.primary-background-color{
+    background-color: $brand-primary;
+    border: none;
+}
+
+.primary-background-color:hover{
+    background-color: #0E1821;
+    border: none;
+}
